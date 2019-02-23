@@ -1,11 +1,12 @@
 class Owner
   # code goes here
-  attr_reader :name
+  attr_reader :name, :species
   
   @@all = []
   
   def initialize(name)
     @name = name
+    @species = "human"
     @@all << self
   end
   
@@ -20,4 +21,5 @@ class Owner
   def self.count
     @@all.length
   end
+  
 end
