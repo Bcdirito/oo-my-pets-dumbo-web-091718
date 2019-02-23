@@ -5,4 +5,5 @@ class Fish
     @name = name
     @mood = "nervous"
     @@all << self
+  end
 end
