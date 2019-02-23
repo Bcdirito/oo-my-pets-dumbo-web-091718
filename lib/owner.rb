@@ -16,4 +16,8 @@ class Owner
   def self.reset_all
     @@all.length
   end
+  
+  def self.count
+    @@all.count
+  end
 end
