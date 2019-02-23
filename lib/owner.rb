@@ -14,6 +14,6 @@ class Owner
   end
   
   def reset_all
-    
+    @@all.length
   end
 end
