@@ -44,6 +44,6 @@ class Owner
   def buy_cat(cat)
     pet = Cat.new(cat)
     pet.owner = self
-    self.pats[:cats] << pet
+    self.pets[:cats] << pet
   end
 end
