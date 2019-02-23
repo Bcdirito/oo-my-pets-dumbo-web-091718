@@ -33,4 +33,7 @@ class Owner
     return "I am a human."
   end
   
+  def buy_fish(fish)
+    @pets[:fish] << fish
+  
 end
